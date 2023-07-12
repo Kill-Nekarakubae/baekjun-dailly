@@ -43,3 +43,4 @@ add_executable(beakjoon_graph_dijkstra_bj5972 beakjoon/graph/dijkstra/bj5972.cpp
 add_executable(beakjoon_dp_bj17175 beakjoon/dp/bj17175.cpp)
 add_executable(beakjoon_math_bj17128 beakjoon/math/bj17128.cpp)
 add_executable(beakjoon_math_bj13410 beakjoon/math/bj13410.cpp)
+add_executable(beakjoon_graph_bfs_bj10026 beakjoon/graph/bfs/bj10026.cpp)
