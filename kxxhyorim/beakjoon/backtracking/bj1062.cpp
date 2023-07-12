@@ -10,15 +10,8 @@ vector<string> word;
 vector<bool> alphabet(26);
 
 void dfs(int v) {
-    v
 
-    if (k == 0) {
-        return;
-    }
 
-    for (int i = 0; i < 26; i++) {
-        if (!alphabet[i])
-    }
 }
 
 int main() {
