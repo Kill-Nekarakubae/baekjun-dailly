@@ -98,7 +98,6 @@ vcs.xml
 .idea/artifacts
 .idea/compiler.xml
 .idea/jarRepositories.xml
-.idea/modules.xml
 .idea/*.iml
 .idea/modules
 *.iml
@@ -144,7 +143,6 @@ fabric.properties
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
 modules.xml
-.idea/misc.xml
 .idea/*
 
 # Sonarlint plugin
