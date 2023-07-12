@@ -9,28 +9,13 @@
 
 <br>
 
-### 🧑🏻‍💻 자료구조
-*<span style="color:red"></span> [Data Structures and Algorithms in Swift - Implementing practical data structures with Swift 4]
-<br>
-| <center>순번</center> | <center>날짜</center> | <center>이름</center> |  <center>소스코드</center> |
-|:--------:|:--------:|:--------:|:--------:|
-|1|**<center>2023.01.03</center>** | Heap | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/Heap.swift) </center>|
-|2|**<center>2023.01.03</center>** | PriorityQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/PriorityQueue.swift) </center>|
-|3|**<center>2023.02.07</center>** | EffectiveQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/EffectiveQueue.swift) </center>|
-|4|**<center>2023.02.07</center>** | LinkedQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/LinkedQueue.swift) </center>|
-|5|**<center>2023.02.07</center>** | RingBufferQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/RingBufferQueue.swift) </center>|
-|6|**<center>2023.02.07</center>** | DoubleStackQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/DoubleStackQueue.swift) </center>|
-|6|**<center>2023.02.09</center>** | LinkedList | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/LinkedList.swift) </center>|
-|6|**<center>2023.02.10</center>** | DoublyLinkedList | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/DoublyLinkedList.swift) </center>|
-
-<br>
-
 ### 🧑🏻‍💻 백준
 <details>
 <summary> Daily picked </summary>
 
 <br/>
 
+<details>
 # 7월
 ## 2023/07/12 
 
@@ -43,6 +28,10 @@
 | [5446](https://www.acmicpc.net/problem/5446) | [용량 부족](https://www.acmicpc.net/problem/5446) | ✅ |
 
 </details>
+</details>
+
+<br/>
+
 
 ### 🧑🏻‍💻 프로그래머스
 
@@ -212,6 +201,23 @@
 |10|**<center>2023.03.22</center>** | 그리디/구현 | <center>[자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) </center>|*[Code](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/Programmers/LV3/자물쇠와%20열쇠/main.swift)* |*[blog](https://gobanest.com/algorithm/programmers/자물쇠와%20열쇠/)*|❌ 다시한번 풀어보기|
 
 </details>
+
+
+### 🧑🏻‍💻 자료구조
+*<span style="color:red"></span> [Data Structures and Algorithms in Swift - Implementing practical data structures with Swift 4]
+<br>
+| <center>순번</center> | <center>날짜</center> | <center>이름</center> |  <center>소스코드</center> |
+|:--------:|:--------:|:--------:|:--------:|
+|1|**<center>2023.01.03</center>** | Heap | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/Heap.swift) </center>|
+|2|**<center>2023.01.03</center>** | PriorityQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/PriorityQueue.swift) </center>|
+|3|**<center>2023.02.07</center>** | EffectiveQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/EffectiveQueue.swift) </center>|
+|4|**<center>2023.02.07</center>** | LinkedQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/LinkedQueue.swift) </center>|
+|5|**<center>2023.02.07</center>** | RingBufferQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/RingBufferQueue.swift) </center>|
+|6|**<center>2023.02.07</center>** | DoubleStackQueue | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/DoubleStackQueue.swift) </center>|
+|6|**<center>2023.02.09</center>** | LinkedList | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/LinkedList.swift) </center>|
+|6|**<center>2023.02.10</center>** | DoublyLinkedList | <center>[코드](https://github.com/Gobans/Swift-Algorithm/blob/main/SwiftAlgorithm/DataStrcutre/DoublyLinkedList.swift) </center>|
+
+<br>
 
 ### 🛠️ 메소드
 
