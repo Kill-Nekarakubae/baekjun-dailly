@@ -26,6 +26,18 @@
 | [10026](https://www.acmicpc.net/problem/10026) | [적록색약](https://www.acmicpc.net/problem/10026) | ✅ |
 | [20922](https://www.acmicpc.net/problem/20922) | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) | ✅ |
 
+## 2023/07/13
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [17393](https://www.acmicpc.net/problem/17393) | [다이나믹 롤러](https://www.acmicpc.net/problem/17393) |
+
+## 2023/07/14 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [17521](https://www.acmicpc.net/problem/17521) | [Byte Coin](https://www.acmicpc.net/problem/17521) |
+
 </details>
 </details>
 
