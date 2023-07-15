@@ -3,7 +3,8 @@ project(kxxhyorim)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(kxxhyorim beakjoon/search/binary/bj17393.cpp beakjoon/dp/bj17175.cpp beakjoon/graph/bfs/bj1697.cpp beakjoon/math/bj13410.cpp test.cpp beakjoon/greedy/bj17521.cpp)
+add_executable(kxxhyorim beakjoon/dp/bj10844.cpp beakjoon/search/binary/bj17393.cpp beakjoon/dp/bj17175.cpp beakjoon/graph/bfs/bj1697.cpp beakjoon/math/bj13410.cpp test.cpp beakjoon/greedy/bj17521.cpp)
+add_executable(bj10844 beakjoon/dp/bj10844.cpp)
 add_executable(greedy_bj17521 beakjoon/greedy/bj17521.cpp)
 add_executable(graph_bj1753 beakjoon/graph/bfs/bj1753.cpp)
 add_executable(bj17393 beakjoon/search/binary/bj17393.cpp)
