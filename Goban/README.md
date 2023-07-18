@@ -56,6 +56,14 @@
 |:----:|:---------:|
 | [2503](https://www.acmicpc.net/problem/2503) | [숫자 야구](https://www.acmicpc.net/problem/2503) |
 
+
+## 2023/07/18 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [1759](https://www.acmicpc.net/problem/1759) | [암호 만들기](https://www.acmicpc.net/problem/1759) |
+
+
 </details>
 </details>
 
