@@ -63,6 +63,12 @@
 |:----:|:---------:|
 | [1759](https://www.acmicpc.net/problem/1759) | [암호 만들기](https://www.acmicpc.net/problem/1759) |
 
+## 2023/07/19 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [21920](https://www.acmicpc.net/problem/21920) | [서로소 평균](https://www.acmicpc.net/problem/21920) |
+| [18113](https://www.acmicpc.net/problem/18113) | [그르다 김가놈](https://www.acmicpc.net/problem/18113) |
 
 </details>
 </details>
