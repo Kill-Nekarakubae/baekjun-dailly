@@ -20,11 +20,11 @@
 
 ## 2023/07/12 
 
-| 번호 | 문제 이름 | 체크 |
-|:----:|:---------:|:---------:| 
-| [13410](https://www.acmicpc.net/problem/13410) | [거꾸로 구구단](https://www.acmicpc.net/problem/13410) | ✅ |
-| [10026](https://www.acmicpc.net/problem/10026) | [적록색약](https://www.acmicpc.net/problem/10026) | ✅ |
-| [20922](https://www.acmicpc.net/problem/20922) | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) | ✅ |
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [13410](https://www.acmicpc.net/problem/13410) | [거꾸로 구구단](https://www.acmicpc.net/problem/13410) |
+| [10026](https://www.acmicpc.net/problem/10026) | [적록색약](https://www.acmicpc.net/problem/10026) | 
+| [20922](https://www.acmicpc.net/problem/20922) | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) |
 
 ## 2023/07/13
 
@@ -37,6 +37,32 @@
 | 번호 | 문제 이름 |
 |:----:|:---------:|
 | [17521](https://www.acmicpc.net/problem/17521) | [Byte Coin](https://www.acmicpc.net/problem/17521) |
+
+## 2023/07/15 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [10816](https://www.acmicpc.net/problem/10816) | [숫자 카드 2](https://www.acmicpc.net/problem/10816) |
+
+## 2023/07/16 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [4179](https://www.acmicpc.net/problem/4179) | [불!](https://www.acmicpc.net/problem/4179) |
+
+## 2023/07/17 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2503](https://www.acmicpc.net/problem/2503) | [숫자 야구](https://www.acmicpc.net/problem/2503) |
+
+
+## 2023/07/18 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [1759](https://www.acmicpc.net/problem/1759) | [암호 만들기](https://www.acmicpc.net/problem/1759) |
+
 
 </details>
 </details>
