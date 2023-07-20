@@ -14,4 +14,4 @@
 | 2023/07/17 | [2503](https://www.acmicpc.net/problem/2503)   | [숫자야구](https://www.acmicpc.net/problem/2503)       | ✅   |
 | 2023/07/19 | [21920](https://www.acmicpc.net/problem/21920) | [서로소 평균](https://www.acmicpc.net/problem/21920)    | ✅   |
 | 2023/07/19 | [18113](https://www.acmicpc.net/problem/18113) | [그르다 김가놈](https://www.acmicpc.net/problem/18113)   | ✅   |
-
+| 2023/07/20 | [1495](https://www.acmicpc.net/problem/1495) | [기타리스트](https://www.acmicpc.net/problem/1495) | ✅ | 
