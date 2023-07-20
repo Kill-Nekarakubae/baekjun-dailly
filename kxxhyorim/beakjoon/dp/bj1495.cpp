@@ -22,34 +22,30 @@ int main() {
         cin >> v[i];
     }
 
-    set<pair<int, int>> vol_set;
-    vol_set.emplace(s, 0);
+    bool dp[51][1001];
+    dp[0][s] = true;
+
+    for (int y = 1; y <= n; y++) {
+        for (int x = 0; x <= m; x++) {
+            if (dp[y - 1][x]) {
+                if (x + v[y] <= m) {
+                    dp[y][x + v[y]] = true;
+                }
+                if (x - v[y] >= 0) {
+                    dp[y][x - v[y]] = true;
+                }
+            }
+        }
+    }
 
     int max_vol = -1;
-
-    while (!vol_set.empty()) {
-        int curr_vol = vol_set.begin()->first;
-        int idx = vol_set.begin()->second;
-        vol_set.erase(vol_set.begin());
-
-
-        if (idx == n) {
-            if (curr_vol > max_vol)
-                max_vol = curr_vol;
-            continue;
-        }
-
-        int next_vol1 = curr_vol + v[idx];
-        int next_vol2 = curr_vol - v[idx];
-        if (next_vol1 >= 0 && next_vol1 <= m) {
-            vol_set.emplace(next_vol1, idx + 1);
-        }
-        if (next_vol2 >= 0 && next_vol2 <= m) {
-            vol_set.emplace(next_vol2, idx + 1);
+    for (int x = m; x >= 0; x--) {
+        if (dp[n][x] == 1) {
+            max_vol = dp[n][x];
+            break;
         }
     }
 
     cout << max_vol;
-
     return 0;
 }
