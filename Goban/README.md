@@ -70,6 +70,12 @@
 | [21920](https://www.acmicpc.net/problem/21920) | [서로소 평균](https://www.acmicpc.net/problem/21920) |
 | [18113](https://www.acmicpc.net/problem/18113) | [그르다 김가놈](https://www.acmicpc.net/problem/18113) |
 
+## 2023/07/20 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [1495](https://www.acmicpc.net/problem/1495) | [기타리스트](https://www.acmicpc.net/problem/1495) |
+
 </details>
 </details>
 
