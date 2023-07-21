@@ -8,7 +8,7 @@
 |  [3187](https://www.acmicpc.net/problem/3187)  |    [양치기 꿍](https://www.acmicpc.net/problem/3187)    | ✅  |
 |  [1695](https://www.acmicpc.net/problem/1695)  |  [팰린드롬 만들기](https://www.acmicpc.net/problem/1695)   | ✅ |
 | [15684](https://www.acmicpc.net/problem/15684) |   [사다리 조작](https://www.acmicpc.net/problem/15684)   | 🐢 |
-| [17831](https://www.acmicpc.net/problem/17831) |  [대기업 승범이네](https://www.acmicpc.net/problem/17831)  | 🐢 |
+| [17831](https://www.acmicpc.net/problem/17831) |  [대기업 승범이네](https://www.acmicpc.net/problem/17831)  | ✅ |
 
 ### 오늘의 교훈
 - Split을 잘 숙지하자
