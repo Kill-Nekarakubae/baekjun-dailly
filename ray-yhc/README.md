@@ -1,17 +1,29 @@
 # 😆 코테뽀시기
 
+## 2023/07/24
+
+|                       번호                       |                        문제 이름                        | 체크 |
+|:----------------------------------------------:|:---------------------------------------------------:|:--:|
+| [15624](https://www.acmicpc.net/problem/15624) |  [피보나치 수 7](https://www.acmicpc.net/problem/15624)  | ✅  |
+|  [2229](https://www.acmicpc.net/problem/2229)  |    [조 짜기](https://www.acmicpc.net/problem/2229)     | 🐢 |
+| [10942](https://www.acmicpc.net/problem/10942) |   [팰린드롬?](https://www.acmicpc.net/problem/10942)    | 🐢 |
+| [16954](https://www.acmicpc.net/problem/16954) | [움직이는 미로 탈출](https://www.acmicpc.net/problem/16954) | 🐢 |
+|  [5670](https://www.acmicpc.net/problem/5670)  |   [휴대폰 자판](https://www.acmicpc.net/problem/5670)    | 🐢 |
+
 ## 2023/07/21
 
 |                       번호                       |                        문제 이름                        | 체크 |
 |:----------------------------------------------:|:---------------------------------------------------:|:--:|
 |  [9536](https://www.acmicpc.net/problem/9536)  | [여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536) | ✅  |
 |  [3187](https://www.acmicpc.net/problem/3187)  |    [양치기 꿍](https://www.acmicpc.net/problem/3187)    | ✅  |
-|  [1695](https://www.acmicpc.net/problem/1695)  |  [팰린드롬 만들기](https://www.acmicpc.net/problem/1695)   | ✅ |
+|  [1695](https://www.acmicpc.net/problem/1695)  |  [팰린드롬 만들기](https://www.acmicpc.net/problem/1695)   | ✅  |
 | [15684](https://www.acmicpc.net/problem/15684) |   [사다리 조작](https://www.acmicpc.net/problem/15684)   | 🐢 |
-| [17831](https://www.acmicpc.net/problem/17831) |  [대기업 승범이네](https://www.acmicpc.net/problem/17831)  | ✅ |
+| [17831](https://www.acmicpc.net/problem/17831) |  [대기업 승범이네](https://www.acmicpc.net/problem/17831)  | ✅  |
 
 ### 오늘의 교훈
+
 - Split을 잘 숙지하자
+
 ```c++
 #include <iostream>
 #include <sstream>
@@ -28,13 +40,15 @@ vector<string> split(string input, char delimiter) {
     return answer;
 }
 ```
+
 - erase(remove) 를 숙지하자
+
 ```c++
 
-#include <algorithm>
+#include
+<algorithm>
 v.erase(remove(v.begin(), v.end(), findValue), v.end());
 ```
-
 
 ## 2023/07/12
 
