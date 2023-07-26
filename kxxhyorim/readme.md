@@ -22,3 +22,4 @@
 | 2023/07/24 | [15624](https://www.acmicpc.net/problem/15624) | [피보나치 수 7](https://www.acmicpc.net/problem/15624)    | ✅   |
 | 2023/07/25 | [16139](https://www.acmicpc.net/problem/16139) | [인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139) | ✅   |
 | 2023/07/25 | [1764](https://www.acmicpc.net/problem/1764)   | [듣보잡](https://www.acmicpc.net/problem/1764)          | ✅   |
+|2023/07/26 | [2309](https://www.acmicpc.net/problem/2309) | [일곱 난쟁이](https://www.acmicpc.net/problem/2309) | ✅ |
