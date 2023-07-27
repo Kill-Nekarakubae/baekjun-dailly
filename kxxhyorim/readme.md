@@ -25,4 +25,4 @@
 | 2023/07/26 | [2309](https://www.acmicpc.net/problem/2309)   | [일곱 난쟁이](https://www.acmicpc.net/problem/2309)       | ✅   |
 | 2023/07/27 | [13305](https://www.acmicpc.net/problem/13305) | [주유소](https://www.acmicpc.net/problem/13305)         | ✅   | 
 | 2023/07/27 | [11568](https://www.acmicpc.net/problem/11568) | [민균이의 계략](https://www.acmicpc.net/problem/11568)     | ✅   |
-| 2023/07/27 | [16434](https://www.acmicpc.net/problem/16434) | [드래곤 앤 던전](https://www.acmicpc.net/problem/16434)    |     |
+| 2023/07/27 | [16434](https://www.acmicpc.net/problem/16434) | [드래곤 앤 던전](https://www.acmicpc.net/problem/16434)    | ✅   |
