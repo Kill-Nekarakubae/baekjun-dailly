@@ -52,9 +52,9 @@ int main() {
         if (map[r][c] == 1) continue;
         if (map[r][c - 1] == 1 && map[r - 1][c] == 1) continue;
 
-        if (r == 1 || (map[r - 1][c - 1] == 1 && map[r][c - 1] == 1)) {
+        if (r == 1 || (map[r - 1][c - 1] == 1 && map[r - 1][c] == 1)) {
             dp[r][c][0] += dp[r][c - 1][0];
-        } else if (c == 1 || (map[r - 1][c - 1] == 1 && map[r - 1][c] == 1)) {
+        } else if (c == 1 || (map[r - 1][c - 1] == 1 && map[r][c - 1] == 1)) {
             dp[r][c][2] += dp[r - 1][c][2];
         } else if (map[r - 1][c - 1] == 1) {
             dp[r][c][0] += dp[r][c - 1][0];
@@ -65,10 +65,18 @@ int main() {
             dp[r][c][2] += dp[r - 1][c][1] + dp[r - 1][c][2];
         } else {
             dp[r][c][0] += dp[r][c - 1][0] + dp[r][c - 1][1];
-            dp[r][c][1] += dp[r - 1][c - 1][0]+dp[r - 1][c - 1][1]+dp[r - 1][c - 1][2];
+            dp[r][c][1] += dp[r - 1][c - 1][0] + dp[r - 1][c - 1][1] + dp[r - 1][c - 1][2];
             dp[r][c][2] += dp[r - 1][c][1] + dp[r - 1][c][2];
         }
     }
+
+//    cout << endl << endl;
+//    for (int i = 1; i <= N; ++i) {
+//        for (int j = 1; j <= N; ++j) {
+//            cout << '{' << dp[i][j][0] << ' ' << dp[i][j][1] << ' ' << dp[i][j][2] << "} ";
+//        }
+//        cout << endl;
+//    }
 
 
     cout << (dp[N][N][0] + dp[N][N][1] + dp[N][N][2]) <<
