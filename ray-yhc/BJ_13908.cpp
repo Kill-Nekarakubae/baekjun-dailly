@@ -6,23 +6,19 @@
 #include <unordered_map>
 #include <string>
 #include <algorithm>
-#include <cstring>
+#include <cmath>
 
 using namespace std;
 
-bool isExist[10];
 
-int getInvResult(int N, int d) {
-    if (d == N) {
-        return 1;
-    }
+int fac[10];
+int factorial(int i){
+    if (fac[i] == 0) fac[i] = i * factorial(i - 1);
+    return fac[i];
+}
 
-    int sum = 0;
-    for (int i = 0; i < 10; ++i) {
-        if (isExist[i]) continue;
-        sum += getInvResult(N, d + 1);
-    }
-    return sum;
+int nCr(int M, int m){
+    return factorial(M) / factorial(m) / factorial(M - m);
 }
 
 int main() {
@@ -32,10 +28,17 @@ int main() {
     for (int i = 0; i < M; ++i) {
         int t;
         cin >> t;
-        isExist[t] = true;
     }
 
-    cout << pow(10, N) - getInvResult(N, 0);
+    fac[0] = fac[1] = 1;
+
+    int result = pow(10, N);
+    int sign = 1;
+    for (int m = 1; m <= M; ++m) {
+        sign = -1 * sign;
+        result += sign * nCr(M, m) * pow((10 - m), N);
+    }
+    cout << result;
 
     return 0;
 }
