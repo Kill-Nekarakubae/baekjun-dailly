@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <cstring>
 #include <vector>
-#include <queue>
 #include <set>
 #include <algorithm>
 
@@ -44,11 +42,8 @@ int main() {
         for (int i = 0; i < n; i++) {
             if (isSelected[i]) sum += cow[i];
         }
-
         if (isPrime(sum)) possible_sum.push_back(sum);
-
     } while (next_permutation(isSelected.begin(), isSelected.end()));
-
 
     vector<int> unique_vector;
     set<int> set;
@@ -66,7 +61,6 @@ int main() {
     } else {
         cout << "-1";
     }
-
 
     return 0;
 }
