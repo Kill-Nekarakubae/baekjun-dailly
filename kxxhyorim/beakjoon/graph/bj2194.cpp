@@ -77,14 +77,12 @@ int main() {
                 for (int X = 0; X < b; X++) {
                     int px = nx + X;
                     int py = ny + Y;
-//                    cout << px << " " << py << endl;
                     if (board[py][px] == -1) {
                         canMove = false;
                         break;
                     }
                 }
             }
-//            cout << canMove << endl;
             if (canMove) {
                 nx = four_points[0].first + dx[i];
                 ny = four_points[0].second + dy[i];
