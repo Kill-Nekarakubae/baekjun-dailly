@@ -35,4 +35,5 @@
 | 2023/08/02 | [2852](https://www.acmicpc.net/problem/2852)                      | [NBA 농구](https://www.acmicpc.net/problem/2852)             | ✅   |
 | 2023/08/02 | [19699](https://www.acmicpc.net/problem/19699)                    | [소-난다!](https://www.acmicpc.net/problem/19699)             | ✅   |
 | 2023/08/02 | [2194](https://www.acmicpc.net/problem/2194)                      | [유닛 이동시키기](https://www.acmicpc.net/problem/2194)           | ✅   |
-
+| 2023/08/03 | [6550](https://www.acmicpc.net/problem/6550)                      | [부분 문자열](https://www.acmicpc.net/problem/6550)             | ✅   |
+| 2023/08/03 | [2302](https://www.acmicpc.net/problem/2302)                      | [극장 좌석](https://www.acmicpc.net/problem/2302)              | ✅   |
