@@ -10,7 +10,6 @@
 		9106AE3C2994DFA800D1D0F2 /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106AE3B2994DFA800D1D0F2 /* DoublyLinkedList.swift */; };
 		9113D47029913FBF0068DAFA /* EffectiveQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113D46F29913FBF0068DAFA /* EffectiveQueue.swift */; };
 		91246E572992099F00AFCCAC /* DoubleStackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91246E562992099F00AFCCAC /* DoubleStackQueue.swift */; };
-		91672D392A77A1C100F6CFDA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91672D382A77A1C100F6CFDA /* main.swift */; };
 		91852B59296EEBD7001EF1B4 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91852B58296EEBD7001EF1B4 /* Combination.swift */; };
 		91852B5B296EF561001EF1B4 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91852B5A296EF561001EF1B4 /* Permutation.swift */; };
 		91B31D6F2A5FE8C80056D7B6 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B31D6E2A5FE8C80056D7B6 /* FileIO.swift */; };
@@ -104,7 +103,13 @@
 		917108AD29C70D3800060DE8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		917108B029C7102A00060DE8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9171270A29F6CD5A00F56C35 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		917608DE2A7BC392006AC417 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		917608E12A7BC5EC006AC417 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		917608E42A7BD3F3006AC417 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		917852972A07878300D33D38 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9178560C2A7A76BB00E4AF96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9178560F2A7A7C6200E4AF96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		917856122A7A82A600E4AF96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9179542329D4885500CF0B99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9179542629D48ABF00CF0B99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9179542929D48BFA00CF0B99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -957,6 +962,43 @@
 			path = "크기가 작은 부분 문자열";
 			sourceTree = "<group>";
 		};
+		917608DC2A7BC382006AC417 /* 0803 */ = {
+			isa = PBXGroup;
+			children = (
+				917608E32A7BD3E9006AC417 /* [1106] 호텔 */,
+				917608E02A7BC5E1006AC417 /* [2302] 극장 좌석 */,
+				917608DD2A7BC388006AC417 /* [6550] 부분 문자열 */,
+			);
+			path = 0803;
+			sourceTree = "<group>";
+		};
+		917608DD2A7BC388006AC417 /* [6550] 부분 문자열 */ = {
+			isa = PBXGroup;
+			children = (
+				917608DE2A7BC392006AC417 /* main.swift */,
+			);
+			name = "[6550] 부분 문자열";
+			path = "[6550] 부분 문자열";
+			sourceTree = "<group>";
+		};
+		917608E02A7BC5E1006AC417 /* [2302] 극장 좌석 */ = {
+			isa = PBXGroup;
+			children = (
+				917608E12A7BC5EC006AC417 /* main.swift */,
+			);
+			name = "[2302] 극장 좌석";
+			path = "[2302] 극장 좌석";
+			sourceTree = "<group>";
+		};
+		917608E32A7BD3E9006AC417 /* [1106] 호텔 */ = {
+			isa = PBXGroup;
+			children = (
+				917608E42A7BD3F3006AC417 /* main.swift */,
+			);
+			name = "[1106] 호텔";
+			path = "[1106] 호텔";
+			sourceTree = "<group>";
+		};
 		917852962A07877500D33D38 /* 다트 게임 */ = {
 			isa = PBXGroup;
 			children = (
@@ -964,6 +1006,43 @@
 			);
 			name = "다트 게임";
 			path = "다트게임";
+			sourceTree = "<group>";
+		};
+		9178560A2A7A769300E4AF96 /* 0802 */ = {
+			isa = PBXGroup;
+			children = (
+				917856112A7A829800E4AF96 /* [2194] 유닛 이동시키기 */,
+				9178560E2A7A7C5600E4AF96 /* [19699] 소-난다! */,
+				9178560B2A7A76AD00E4AF96 /* [2852] NBA 농구 */,
+			);
+			path = 0802;
+			sourceTree = "<group>";
+		};
+		9178560B2A7A76AD00E4AF96 /* [2852] NBA 농구 */ = {
+			isa = PBXGroup;
+			children = (
+				9178560C2A7A76BB00E4AF96 /* main.swift */,
+			);
+			name = "[2852] NBA 농구";
+			path = "[2852] NBA 농구";
+			sourceTree = "<group>";
+		};
+		9178560E2A7A7C5600E4AF96 /* [19699] 소-난다! */ = {
+			isa = PBXGroup;
+			children = (
+				9178560F2A7A7C6200E4AF96 /* main.swift */,
+			);
+			name = "[19699] 소-난다!";
+			path = "[19699] 소-난다!";
+			sourceTree = "<group>";
+		};
+		917856112A7A829800E4AF96 /* [2194] 유닛 이동시키기 */ = {
+			isa = PBXGroup;
+			children = (
+				917856122A7A82A600E4AF96 /* main.swift */,
+			);
+			name = "[2194] 유닛 이동시키기";
+			path = "[2194] 유닛 이동시키키";
 			sourceTree = "<group>";
 		};
 		9179542229D4883A00CF0B99 /* 나누어 떨어지는 숫자 배열 */ = {
@@ -1524,6 +1603,8 @@
 		91C788C52A5E8E3600903E89 /* DailyPicked */ = {
 			isa = PBXGroup;
 			children = (
+				917608DC2A7BC382006AC417 /* 0803 */,
+				9178560A2A7A769300E4AF96 /* 0802 */,
 				91672D2B2A7795D400F6CFDA /* 0731 */,
 				919B35DB2A735085000E7854 /* 0728 */,
 				91A652D32A725BDA0066C9EB /* 0727 */,
@@ -2111,7 +2192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91DEF9512993EED300A3EBA8 /* LinkedList.swift in Sources */,
-				91672D392A77A1C100F6CFDA /* main.swift in Sources */,
 				91B6EB5A2991E83900F4AE4E /* LinkedQueue.swift in Sources */,
 				91B31D6F2A5FE8C80056D7B6 /* FileIO.swift in Sources */,
 				91E46A06296443D4007B79DC /* Heap.swift in Sources */,
