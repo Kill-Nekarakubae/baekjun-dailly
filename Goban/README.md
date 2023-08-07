@@ -148,6 +148,12 @@
 |:----:|:---------:|
 | [1713](https://www.acmicpc.net/problem/1713) | [후보 추천하기](https://www.acmicpc.net/problem/1713) |
 
+## 2023/08/07 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2467](https://www.acmicpc.net/problem/2467) | [용액](https://www.acmicpc.net/problem/2467) |
+
 </details>
 </details>
 
