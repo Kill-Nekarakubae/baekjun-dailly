@@ -142,6 +142,18 @@
 | [1106](https://www.acmicpc.net/problem/1106) | [호텔](https://www.acmicpc.net/problem/1106) |
 | [2302](https://www.acmicpc.net/problem/2302) | [극장 좌석](https://www.acmicpc.net/problem/2302) |
 
+## 2023/08/04
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [1713](https://www.acmicpc.net/problem/1713) | [후보 추천하기](https://www.acmicpc.net/problem/1713) |
+
+## 2023/08/07 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2467](https://www.acmicpc.net/problem/2467) | [용액](https://www.acmicpc.net/problem/2467) |
+
 </details>
 </details>
 
