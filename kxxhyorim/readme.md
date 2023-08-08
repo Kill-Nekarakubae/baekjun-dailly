@@ -38,3 +38,5 @@
 | 2023/08/03 | [6550](https://www.acmicpc.net/problem/6550)                      | [부분 문자열](https://www.acmicpc.net/problem/6550)             | ✅   |
 | 2023/08/03 | [2302](https://www.acmicpc.net/problem/2302)                      | [극장 좌석](https://www.acmicpc.net/problem/2302)              | ✅   |
 | 2023/08/04 | [1713](https://www.acmicpc.net/problem/1713)                      | [후보 추천하기](https://www.acmicpc.net/problem/1713)            | ✅   |
+| 2023/08/07 | [2467](https://www.acmicpc.net/problem/2467)                      | [용액](https://www.acmicpc.net/problem/2467)                 | ❌   |
+| 2023/08/08 | [2467](https://www.acmicpc.net/problem/2467)                      | [용액](https://www.acmicpc.net/problem/2467)                 | ✅   |
