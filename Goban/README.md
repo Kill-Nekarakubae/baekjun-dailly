@@ -154,6 +154,12 @@
 |:----:|:---------:|
 | [2467](https://www.acmicpc.net/problem/2467) | [용액](https://www.acmicpc.net/problem/2467) |
 
+## 2023/08/08
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2253](https://www.acmicpc.net/problem/2253) | [점프](https://www.acmicpc.net/problem/2253) |
+
 </details>
 </details>
 
