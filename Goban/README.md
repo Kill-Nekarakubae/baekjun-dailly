@@ -160,6 +160,20 @@
 |:----:|:---------:|
 | [2253](https://www.acmicpc.net/problem/2253) | [점프](https://www.acmicpc.net/problem/2253) |
 
+## 2023/08/09
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [11052](https://www.acmicpc.net/problem/11052) | [카드 구매하기](https://www.acmicpc.net/problem/11052) |
+| [2293](https://www.acmicpc.net/problem/2293) | [동전1](https://www.acmicpc.net/problem/2293) |
+
+## 2023/08/10
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2109](https://www.acmicpc.net/problem/2109) | [순회강연](https://www.acmicpc.net/problem/2109) |
+| [16195](https://www.acmicpc.net/problem/16195) | [1, 2, 3 더하기 9](https://www.acmicpc.net/problem/16195) |
+
 </details>
 </details>
 
