@@ -134,6 +134,46 @@
 | [2110](https://www.acmicpc.net/problem/2110) | [공유기 설치](https://www.acmicpc.net/problem/2110) |
 | [1520](https://www.acmicpc.net/problem/1520) | [내리막 길](https://www.acmicpc.net/problem/1520) |
 
+## 2023/08/03 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [6550](https://www.acmicpc.net/problem/6550) | [부분 문자열](https://www.acmicpc.net/problem/6550) |
+| [1106](https://www.acmicpc.net/problem/1106) | [호텔](https://www.acmicpc.net/problem/1106) |
+| [2302](https://www.acmicpc.net/problem/2302) | [극장 좌석](https://www.acmicpc.net/problem/2302) |
+
+## 2023/08/04
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [1713](https://www.acmicpc.net/problem/1713) | [후보 추천하기](https://www.acmicpc.net/problem/1713) |
+
+## 2023/08/07 
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2467](https://www.acmicpc.net/problem/2467) | [용액](https://www.acmicpc.net/problem/2467) |
+
+## 2023/08/08
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2253](https://www.acmicpc.net/problem/2253) | [점프](https://www.acmicpc.net/problem/2253) |
+
+## 2023/08/09
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [11052](https://www.acmicpc.net/problem/11052) | [카드 구매하기](https://www.acmicpc.net/problem/11052) |
+| [2293](https://www.acmicpc.net/problem/2293) | [동전1](https://www.acmicpc.net/problem/2293) |
+
+## 2023/08/10
+
+| 번호 | 문제 이름 |
+|:----:|:---------:|
+| [2109](https://www.acmicpc.net/problem/2109) | [순회강연](https://www.acmicpc.net/problem/2109) |
+| [16195](https://www.acmicpc.net/problem/16195) | [1, 2, 3 더하기 9](https://www.acmicpc.net/problem/16195) |
+
 </details>
 </details>
 
