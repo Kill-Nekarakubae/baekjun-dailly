@@ -42,3 +42,5 @@
 | 2023/08/08 | [2467](https://www.acmicpc.net/problem/2467)                      | [용액](https://www.acmicpc.net/problem/2467)                   | ✅   |
 | 2023/08/09 | [HSAT 4회 기출1](https://softeer.ai/practice/info.do?idx=1&eid=1204) | [슈퍼컴퓨터](https://softeer.ai/practice/info.do?idx=1&eid=1204)  | ✅   | 
 | 2023/08/10 | [HSAT 3회 기출1](https://softeer.ai/practice/info.do?idx=1&eid=804)  | [플레이페어암호](https://softeer.ai/practice/info.do?idx=1&eid=804) | ✅   | 
+| 2023/08/11 | 현대 코테 보고옴                                                         |                                                              |     |
+| 2023/08/08 | [21922](https://www.acmicpc.net/problem/21922)                    | [학부 연구생 민상](https://www.acmicpc.net/problem/21922)           | ✅   |
