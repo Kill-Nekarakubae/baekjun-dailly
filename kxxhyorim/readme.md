@@ -46,3 +46,4 @@
 | 2023/08/14 | [21922](https://www.acmicpc.net/problem/21922)                    | [학부 연구생 민상](https://www.acmicpc.net/problem/21922)           | ✅   |
 | 2023/08/16 | [1010](https://www.acmicpc.net/problem/1010)                      | [다리 놓기](https://www.acmicpc.net/problem/1010)                | ✅   |
 | 2023/08/16 | [15664](https://www.acmicpc.net/problem/15664)                    | [N과 M(10)](https://www.acmicpc.net/problem/15664)            | ✅   |
+| 2023/08/17 | [1439](https://www.acmicpc.net/problem/1439)                      | [뒤집기](https://www.acmicpc.net/problem/1439)                  | ✅   |
