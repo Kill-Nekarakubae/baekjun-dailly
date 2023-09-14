@@ -116,3 +116,5 @@ for i in 1...n {
 }
 
 print(cost[n][n])
+
+//cost.append(<#T##newElement: [Int]##[Int]#>)
