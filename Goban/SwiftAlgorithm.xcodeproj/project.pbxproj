@@ -12,7 +12,6 @@
 		91246E572992099F00AFCCAC /* DoubleStackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91246E562992099F00AFCCAC /* DoubleStackQueue.swift */; };
 		91852B59296EEBD7001EF1B4 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91852B58296EEBD7001EF1B4 /* Combination.swift */; };
 		91852B5B296EF561001EF1B4 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91852B5A296EF561001EF1B4 /* Permutation.swift */; };
-		918E535D2AB3005400E56DB7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E535C2AB3005400E56DB7 /* main.swift */; };
 		91B31D6F2A5FE8C80056D7B6 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B31D6E2A5FE8C80056D7B6 /* FileIO.swift */; };
 		91B6EB5A2991E83900F4AE4E /* LinkedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6EB592991E83900F4AE4E /* LinkedQueue.swift */; };
 		91B6EB5E2991F30300F4AE4E /* RingBufferQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6EB5D2991F30300F4AE4E /* RingBufferQueue.swift */; };
@@ -43,6 +42,9 @@
 		9110C2482AA1DA06001C1AD1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91111E1029A6486600B065B1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91111E1429A64EB800B065B1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9111C12E2AC01A4F0050812A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9111C1312AC0200C0050812A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9111C1342AC0273D0050812A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9113D46D299134B70068DAFA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9113D46F29913FBF0068DAFA /* EffectiveQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveQueue.swift; sourceTree = "<group>"; };
 		9115529E29630F4400BD06FA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		912E1EE12972C4EE0031C184 /* 도넛행성.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "도넛행성.png"; sourceTree = "<group>"; };
 		912E1EE22972C4F10031C184 /* 신을 모시는 사당.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "신을 모시는 사당.png"; sourceTree = "<group>"; };
 		912E1EE32972C4F70031C184 /* 미팅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "미팅.png"; sourceTree = "<group>"; };
+		913050D32ABF065500AE457F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		913050D62ABF0D1600AE457F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		913051272A66D2890086159E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9130DFE72A8F8B0700A1DED4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		91322B2A29B6215C00771D0F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -344,6 +348,43 @@
 			);
 			name = "겹치는 선분의 길이";
 			path = "겹치는 선분의 길이";
+			sourceTree = "<group>";
+		};
+		9111C12C2AC01A390050812A /* 0924 */ = {
+			isa = PBXGroup;
+			children = (
+				9111C1332AC027320050812A /* [15683] 감시 */,
+				9111C1302AC020010050812A /* [3085] 사탕 게임 */,
+				9111C12D2AC01A400050812A /* [11478] 서로 다른 부분 문자열의 개수 */,
+			);
+			path = 0924;
+			sourceTree = "<group>";
+		};
+		9111C12D2AC01A400050812A /* [11478] 서로 다른 부분 문자열의 개수 */ = {
+			isa = PBXGroup;
+			children = (
+				9111C12E2AC01A4F0050812A /* main.swift */,
+			);
+			name = "[11478] 서로 다른 부분 문자열의 개수";
+			path = "[11478] 서로 다른 부분 문자열의 개수";
+			sourceTree = "<group>";
+		};
+		9111C1302AC020010050812A /* [3085] 사탕 게임 */ = {
+			isa = PBXGroup;
+			children = (
+				9111C1312AC0200C0050812A /* main.swift */,
+			);
+			name = "[3085] 사탕 게임";
+			path = "[3085] 사탕 게임";
+			sourceTree = "<group>";
+		};
+		9111C1332AC027320050812A /* [15683] 감시 */ = {
+			isa = PBXGroup;
+			children = (
+				9111C1342AC0273D0050812A /* main.swift */,
+			);
+			name = "[15683] 감시";
+			path = "[15683] 감시";
 			sourceTree = "<group>";
 		};
 		9113D46C299134AD0068DAFA /* 타겟 넘버 */ = {
@@ -660,6 +701,33 @@
 			);
 			name = "미팅";
 			path = "미팅";
+			sourceTree = "<group>";
+		};
+		913050D12ABF064300AE457F /* 0923 */ = {
+			isa = PBXGroup;
+			children = (
+				913050D52ABF0D0A00AE457F /* [6443] 애너그램 */,
+				913050D22ABF064900AE457F /* [2553] 마지막 팩토리얼 수 */,
+			);
+			path = 0923;
+			sourceTree = "<group>";
+		};
+		913050D22ABF064900AE457F /* [2553] 마지막 팩토리얼 수 */ = {
+			isa = PBXGroup;
+			children = (
+				913050D32ABF065500AE457F /* main.swift */,
+			);
+			name = "[2553] 마지막 팩토리얼 수";
+			path = "[2553] 마지막 팩토리얼 수";
+			sourceTree = "<group>";
+		};
+		913050D52ABF0D0A00AE457F /* [6443] 애너그램 */ = {
+			isa = PBXGroup;
+			children = (
+				913050D62ABF0D1600AE457F /* main.swift */,
+			);
+			name = "[6443] 애너그램";
+			path = "[6443] 애너그램";
 			sourceTree = "<group>";
 		};
 		9130511C2A66CC6F0086159E /* 0718 */ = {
@@ -2001,6 +2069,8 @@
 		91C788C52A5E8E3600903E89 /* DailyPicked */ = {
 			isa = PBXGroup;
 			children = (
+				9111C12C2AC01A390050812A /* 0924 */,
+				913050D12ABF064300AE457F /* 0923 */,
 				918E53512AB2EEFE00E56DB7 /* 0914 */,
 				915E34C82AB19A0600614FCE /* 0913 */,
 				9145CF8E2AAF2408006D664B /* 0911 */,
@@ -2652,7 +2722,6 @@
 			files = (
 				91DEF9512993EED300A3EBA8 /* LinkedList.swift in Sources */,
 				91B6EB5A2991E83900F4AE4E /* LinkedQueue.swift in Sources */,
-				918E535D2AB3005400E56DB7 /* main.swift in Sources */,
 				91B31D6F2A5FE8C80056D7B6 /* FileIO.swift in Sources */,
 				91E46A06296443D4007B79DC /* 2.swift in Sources */,
 				9113D47029913FBF0068DAFA /* EffectiveQueue.swift in Sources */,
