@@ -9,6 +9,7 @@ public:
                 if (nums[i]+nums[j] == target) {
                     vector<int> r;
                     r.push_back(i);
+
                     r.push_back(j);
                     return r;
                 }
