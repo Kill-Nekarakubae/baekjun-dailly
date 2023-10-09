@@ -44,6 +44,7 @@ int dfs(vector<vector<int> > visited, pi blue, pi red) {
                 nr += dr[d];
                 nc += dc[d];
 
+
                 if (mapp[nr][nc] == '#' || (nr == nBlue.first && nc == nBlue.second)) {
                     nRed.first = nr - dr[d];
                     nRed.second = nc - dc[d];
