@@ -7,7 +7,7 @@
 
 import Foundation
 
-func combination<T: Comparable>(_ array: [T], _ targetNum: Int) -> [[T]] {
+func combinationRecursion<T: Comparable>(_ array: [T], _ targetNum: Int) -> [[T]] {
     var result = [[T]]()
     
     func combination(_ index: Int, _ nowCombi: [T]) {
