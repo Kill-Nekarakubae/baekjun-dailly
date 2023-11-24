@@ -7,7 +7,7 @@
 
 import Foundation
 
-func permutation<T>(_ array: [T], _ targetNum: Int) -> [[T]] {
+func permutationRecursion<T>(_ array: [T], _ targetNum: Int) -> [[T]] {
     var result = [[T]]()
     var visited = [Bool](repeating: false, count: array.count)
     
