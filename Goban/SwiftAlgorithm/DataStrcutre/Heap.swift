@@ -20,7 +20,7 @@ struct Heap<Element: Equatable> {
                 siftDown(from: i)
             }
         }
-    }
+    }		
     
     var isEmpty: Bool {
         return elements.isEmpty
