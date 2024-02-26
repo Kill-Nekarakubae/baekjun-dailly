@@ -41,6 +41,7 @@ add_executable(programmers_sort_h_index programmers/sort/h_index.cpp)
 add_executable(programmers_brute_force_find_prime_num programmers/brute_force/find_prime_num.cpp)
 add_executable(programmers_greedy_training_clothes programmers/greedy/training_clothes.cpp)
 add_executable(programmers_kakao2019_crain_doll_game programmers/kakao2019/crain_doll_game.cpp)
+add_executable(programmers_kakao2018blind_secret_map programmers/kakao2018blind/secret_map.cpp)
 add_executable(codetree_level_test_num6 codetree/level_test/num6.cpp)
 
 add_executable(beakjoon_graph_dijkstra_bj5972 beakjoon/graph/dijkstra/bj5972.cpp)

@@ -17,8 +17,10 @@ string toBinary(int dec) {
         dec /= 2;
         if (dec == 0) break;
     }
-    int fill = len - s.length();
-    for (int i = 0; i < fill; i++) { s += "0"; }
+//    int fill = len - s.length();
+//    for (int i = 0; i < fill; i++) { s += "0"; }
+    string filled = string(len - s.length(), '0') + s;
+
     reverse(s.begin(), s.end());
 
     return s;
@@ -48,7 +50,7 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    vector<int> v1; //= {9, 20, 28, 18, 11};
+    vector<int> v1;//= {9, 20, 28, 18, 11};
     v1.emplace_back(9);
     v1.emplace_back(20);
     v1.emplace_back(28);
