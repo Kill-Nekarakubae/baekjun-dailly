@@ -5,8 +5,10 @@
 
 using namespace std;
 
-vector<map<int, vector<int>>> v(5);
-vector<set<int>> sameClass(1003);
+/* 테케만 돌아감..! 정답률 100 코드 아님.. 다음에 다시 볼 것*/
+
+vector<set<int>> friendWith(1003);
+int input[1003][5];
 
 int main() {
     ios_base::sync_with_stdio(false);
@@ -17,37 +19,36 @@ int main() {
     cin >> n;
 
     for (int i = 1; i <= n; i++) {
-        int g1, g2, g3, g4, g5;
-        cin >> g1 >> g2 >> g3 >> g4 >> g5;
-        v[0][g1].emplace_back(i); // 1학년 g1반에 i번 학생이 있었다
-        v[1][g2].emplace_back(i);
-        v[2][g3].emplace_back(i);
-        v[3][g4].emplace_back(i);
-        v[4][g5].emplace_back(i);
+        for (int j = 0; j < 5; j++) {
+            cin >> input[i][j];
+        }
     }
 
-    for (int i = 0; i < 5; i++) { // 학년별 검사
-        map<int, vector<int>> m = v[i];
-        for (auto it = m.begin(); it != m.end(); it++) {
-            vector<int> students = it->second;
-            if (students.size() <= 1) continue;
-            for (int j = 0; j < students.size(); j++) {
-                for (int k = 0; k < students.size(); k++) {
-                    if (j == k) continue;
-                    sameClass[students[j]].emplace(students[k]);
+    for (int i = 0; i < 5; i++) { // 학년별로 검사
+        for (int s1 = 0; s1 < n; s1++) {
+            for (int s2 = s1; s2 < n; s2++) {
+                if (s1 == s2) continue;
+                if (input[i][s1] == input[i][s2]) {
+                    int student1 = input[i][s1];
+                    int student2 = input[i][s2];
+                    friendWith[student1].emplace(student2);
+                    friendWith[student2].emplace(student1);
                 }
             }
         }
     }
 
     int maxN = 0;
-    int answerIdx = 1;
+    int answerIdx = -1;
     for (int i = 1; i <= n; i++) {
-        if (sameClass[i].size() > maxN) {
-            maxN = sameClass[i].size();
+        if (friendWith[i].size() > maxN) {
+            maxN = friendWith[i].size();
             answerIdx = i;
         }
     }
-    cout << answerIdx;
+
+    if (answerIdx == -1) cout << 1;
+    else cout << answerIdx + 1;
+
     return 0;
 }
