@@ -1,54 +1,43 @@
 #include <iostream>
 #include <algorithm>
-#include <stack>
-#include <vector>
-#include <set>
 
 using namespace std;
 
+int n, m;
+int arr[8];
+bool isVisited[9];
+string answer;
+
+void dfs(int cnt) {
+
+    if (cnt == m) {
+        for (int i = 0; i < m; i++) {
+            answer += to_string(arr[i]);
+            answer += " ";
+        }
+        answer += "\n";
+        return;
+    }
+
+    for (int i = 1; i <= n; i++) {
+        if (!isVisited[i]) {
+            isVisited[i] = true;
+            arr[cnt] = i;
+            dfs(cnt + 1);
+            isVisited[i] = false;
+        }
+    }
+}
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n, m;
     cin >> n >> m;
 
-    vector<int> v;
-    set<string> s;
+    dfs(0);
+    cout << answer;
 
-    for (int i = 1; i <= n; i++) {
-        v.emplace_back(i);
-    }
-
-    vector<bool> isSelected;
-    isSelected.resize(n);
-
-    for (int i = n - 1; i >= n - m; i--) {
-        isSelected[i] = true;
-    }
-
-    do {
-        vector<int> candidate;
-        for (int i = 0; i < n; i++) {
-            if (isSelected[i]) {
-                candidate.emplace_back(v[i]);
-            }
-        }
-        do {
-            string temp;
-            for (int i = 0; i < candidate.size(); i++) {
-                temp += to_string(candidate[i]);
-                temp += " ";
-            }
-            s.emplace(temp);
-        } while (next_permutation(candidate.begin(), candidate.end()));
-    } while (next_permutation(isSelected.begin(), isSelected.end()));
-
-
-    for (auto it = s.begin(); it != s.end(); it++) {
-        cout << *it << endl;
-    }
     return 0;
 }
